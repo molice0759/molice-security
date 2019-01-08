@@ -1,0 +1,14 @@
+spring:
+  # 数据库访问配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/oms?useUnicode=true&charaterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+  session:
+    store-type: none
+
+#关闭安全验证
+security:
+  basic:
+    enabled: false
