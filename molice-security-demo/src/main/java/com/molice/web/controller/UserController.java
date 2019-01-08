@@ -24,7 +24,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
-@Api(value = "用户")
+@Api(value = "用户",tags = "用户")
 public class UserController {
     //@RequestParam
     //@PathVariable
