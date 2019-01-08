@@ -17,7 +17,7 @@
     </modules>
 
     <properties>
-        <molice.security.version>1.0.0-SNAPSHOT</molice.security.version>
+        <molice.security.version>1.0-SNAPSHOT</molice.security.version>
     </properties>
 
     <dependencyManagement>

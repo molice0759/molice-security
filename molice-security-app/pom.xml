@@ -12,5 +12,13 @@
 
     <artifactId>molice-security-app</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.molice.security</groupId>
+            <artifactId>molice-security-core</artifactId>
+            <version>${molice.security.version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

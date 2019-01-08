@@ -12,5 +12,23 @@
 
     <artifactId>molice-security-browser</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.molice.security</groupId>
+            <artifactId>molice-security-core</artifactId>
+            <version>${molice.security.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
