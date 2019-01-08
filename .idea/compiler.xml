@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="molice-security-app" />
+        <module name="molice-security-browser" />
+        <module name="molice-security-core" />
+        <module name="molice-security-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="molice-security" target="1.8" />
+      <module name="molice-security-app" target="1.8" />
+      <module name="molice-security-browser" target="1.8" />
+      <module name="molice-security-core" target="1.8" />
+      <module name="molice-security-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

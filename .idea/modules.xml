@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/molice-security.iml" filepath="$PROJECT_DIR$/molice-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/molice-security-app/molice-security-app.iml" filepath="$PROJECT_DIR$/molice-security-app/molice-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/molice-security-browser/molice-security-browser.iml" filepath="$PROJECT_DIR$/molice-security-browser/molice-security-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/molice-security-core/molice-security-core.iml" filepath="$PROJECT_DIR$/molice-security-core/molice-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/molice-security-demo/molice-security-demo.iml" filepath="$PROJECT_DIR$/molice-security-demo/molice-security-demo.iml" />
+    </modules>
+  </component>
+</project>
