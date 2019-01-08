@@ -5,6 +5,8 @@ import com.fasterxml.jackson.annotation.JsonView;
 import com.molice.dto.User;
 import com.molice.dto.UserQueryCondition;
 import com.molice.exception.UserNotExistException;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -22,6 +24,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
+@Api(value = "用户")
 public class UserController {
     //@RequestParam
     //@PathVariable
@@ -29,6 +32,7 @@ public class UserController {
 
     @GetMapping
     @JsonView(User.UserSimpleView.class)
+    @ApiOperation(value = "用户列表查询")
     public List<User> query(UserQueryCondition condition, Pageable pageable) {
         System.out.println(ReflectionToStringBuilder.toString(condition, ToStringStyle.MULTI_LINE_STYLE));
         System.out.println(ReflectionToStringBuilder.toString(pageable, ToStringStyle.MULTI_LINE_STYLE));

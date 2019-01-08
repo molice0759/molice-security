@@ -1,5 +1,7 @@
 package com.molice.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 /**
  * 用户查询条件
  *
@@ -7,7 +9,7 @@ package com.molice.dto;
  * @date 2019.1
  */
 public class UserQueryCondition {
-
+    @ApiModelProperty(value = "姓名")
     private String username;
 
     private String age;
